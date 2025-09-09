@@ -1,10 +1,12 @@
 package com.DataTech.Pages;
 
 import java.util.List;
+import java.util.Map;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 import com.DataTech.utils.ActionUtils;
 import com.DataTech.utils.WaitUtils;
@@ -53,8 +55,18 @@ public void getFirstThreeProductList() {
 		String productTitiles = firstThreeproducts.get(i).getText();
 		System.out.println("Product "+i+" is : Title: "+ productTitiles +" Price: "+ productPrice);
 		
+		if(productPrice=="9.99") {
+			System.out.println("The Product Title is :" + productTitiles);
+		}
+		
+		else {
+			System.out.println("No product is equals to 9.99");
+		}
+		
 		
 	}
 }
+
+
 
 }

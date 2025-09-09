@@ -1,87 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="11" passed="9" failed="0" skipped="0">
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-29T16:27:22 IST" name="Suite" finished-at="2025-07-29T16:27:24 IST" duration-ms="2072">
+  <suite started-at="2025-09-09T13:52:43 IST" name="Suite" finished-at="2025-09-09T13:52:44 IST" duration-ms="1220">
     <groups>
     </groups>
-    <test started-at="2025-07-29T16:27:22 IST" name="Test" finished-at="2025-07-29T16:27:24 IST" duration-ms="2072">
-      <class name="com.DataTech.Tests.ProductTest">
-        <test-method signature="getProductDetails()[pri:0, instance:com.DataTech.Tests.ProductTest@6bbe85a8]" started-at="2025-07-29T16:27:24 IST" name="getProductDetails" finished-at="2025-07-29T16:27:24 IST" duration-ms="39" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getProductDetails -->
-      </class> <!-- com.DataTech.Tests.ProductTest -->
+    <test started-at="2025-09-09T13:52:43 IST" name="Test" finished-at="2025-09-09T13:52:44 IST" duration-ms="1220">
       <class name="com.DataTech.Tests.HomeTest">
-        <test-method signature="verifyFilters(java.lang.String)[pri:1, instance:com.DataTech.Tests.HomeTest@5149d738]" started-at="2025-07-29T16:27:23 IST" name="verifyFilters" data-provider="filteroptions" finished-at="2025-07-29T16:27:23 IST" duration-ms="174" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Name (A to Z)]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="sortbyName()[pri:0, instance:com.DataTech.Tests.HomeTest@795509d9]" started-at="2025-09-09T13:52:44 IST" name="sortbyName" finished-at="2025-09-09T13:52:44 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFilters -->
-        <test-method signature="verifyFilters(java.lang.String)[pri:1, instance:com.DataTech.Tests.HomeTest@5149d738]" started-at="2025-07-29T16:27:23 IST" name="verifyFilters" data-provider="filteroptions" finished-at="2025-07-29T16:27:23 IST" duration-ms="261" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Name (Z to A)]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- sortbyName -->
+        <test-method signature="getProductNameAndPrice()[pri:0, instance:com.DataTech.Tests.HomeTest@795509d9]" started-at="2025-09-09T13:52:44 IST" name="getProductNameAndPrice" finished-at="2025-09-09T13:52:44 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFilters -->
-        <test-method signature="verifyFilters(java.lang.String)[pri:1, instance:com.DataTech.Tests.HomeTest@5149d738]" started-at="2025-07-29T16:27:23 IST" name="verifyFilters" data-provider="filteroptions" finished-at="2025-07-29T16:27:23 IST" duration-ms="244" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Price (low to high)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFilters -->
-        <test-method signature="verifyFilters(java.lang.String)[pri:1, instance:com.DataTech.Tests.HomeTest@5149d738]" started-at="2025-07-29T16:27:23 IST" name="verifyFilters" data-provider="filteroptions" finished-at="2025-07-29T16:27:24 IST" duration-ms="197" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Price (high to low)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFilters -->
-        <test-method signature="addCheapestProduct()[pri:2, instance:com.DataTech.Tests.HomeTest@5149d738]" started-at="2025-07-29T16:27:24 IST" name="addCheapestProduct" finished-at="2025-07-29T16:27:24 IST" duration-ms="385" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addCheapestProduct -->
+        </test-method> <!-- getProductNameAndPrice -->
       </class> <!-- com.DataTech.Tests.HomeTest -->
       <class name="com.DataTech.Tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.DataTech.Tests.LoginTest@74e28667]" started-at="2025-07-29T16:27:17 IST" name="setup" finished-at="2025-07-29T16:27:22 IST" duration-ms="5387" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.DataTech.Tests.LoginTest@74d1dc36]" started-at="2025-09-09T13:52:38 IST" name="setup" finished-at="2025-09-09T13:52:43 IST" duration-ms="4735" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLogin()[pri:0, instance:com.DataTech.Tests.LoginTest@74e28667]" started-at="2025-07-29T16:27:22 IST" name="validLogin" finished-at="2025-07-29T16:27:23 IST" duration-ms="451" status="PASS">
+        <test-method signature="validLogin()[pri:0, instance:com.DataTech.Tests.LoginTest@74d1dc36]" started-at="2025-09-09T13:52:43 IST" name="validLogin" finished-at="2025-09-09T13:52:44 IST" duration-ms="692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
       </class> <!-- com.DataTech.Tests.LoginTest -->
-      <class name="com.DataTech.Tests.CartTest">
-        <test-method signature="verifyProductDetails()[pri:1, instance:com.DataTech.Tests.CartTest@548d708a]" started-at="2025-07-29T16:27:24 IST" name="verifyProductDetails" finished-at="2025-07-29T16:27:24 IST" duration-ms="247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductDetails -->
-        <test-method signature="assertProductDetails()[pri:0, instance:com.DataTech.Tests.CartTest@548d708a]" started-at="2025-07-29T16:27:24 IST" name="assertProductDetails" finished-at="2025-07-29T16:27:24 IST" depends-on-methods="com.DataTech.Tests.CartTest.verifyProductDetails" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assertProductDetails -->
-      </class> <!-- com.DataTech.Tests.CartTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

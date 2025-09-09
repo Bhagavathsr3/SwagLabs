@@ -6,8 +6,8 @@
       <class name="com.DataTech.Tests.CartTest">
         <methods>
           <include name="assertProductDetails"/>
-          <include name="verifyProductDetails"/>
           <include name="setup"/>
+          <include name="verifyProductDetails"/>
         </methods>
       </class> <!-- com.DataTech.Tests.CartTest -->
     </classes>

@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\bhaga\eclipse-ALO\DataTech\src\test\resources\Task2.xml</span>
+                    <span>C:\Users\bhaga\eclipse-ALO\DataTech\src\test\resources\Task1.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">9 methods,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,17 +103,47 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.DataTech.Tests.HomeTest" class="method navigator-link" hash-for-method="getProductNameAndPrice">getProductNameAndPrice</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.DataTech.Tests.HomeTest" class="method navigator-link" hash-for-method="addCheapestProduct">addCheapestProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.DataTech.Tests.HomeTest" class="method navigator-link" hash-for-method="sortbyName">sortbyName</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.DataTech.Tests.CartTest" class="method navigator-link" hash-for-method="assertProductDetails">assertProductDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DataTech.Tests.ProductTest" class="method navigator-link" hash-for-method="getProductDetails">getProductDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.DataTech.Tests.LoginTest" class="method navigator-link" hash-for-method="validLogin">validLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DataTech.Tests.HomeTest" class="method navigator-link" hash-for-method="verifyFilters(Name (A to Z))">verifyFilters(Name (A to Z))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DataTech.Tests.HomeTest" class="method navigator-link" hash-for-method="verifyFilters(Name (Z to A))">verifyFilters(Name (Z to A))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DataTech.Tests.HomeTest" class="method navigator-link" hash-for-method="verifyFilters(Price (high to low))">verifyFilters(Price (high to low))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DataTech.Tests.HomeTest" class="method navigator-link" hash-for-method="verifyFilters(Price (low to high))">verifyFilters(Price (low to high))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.DataTech.Tests.CartTest" class="method navigator-link" hash-for-method="verifyProductDetails">verifyProductDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -131,28 +161,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.DataTech.Tests.HomeTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getProductNameAndPrice">
-                  </a> <!-- getProductNameAndPrice -->
-                  <span class="method-name">getProductNameAndPrice</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="sortbyName">
-                  </a> <!-- sortbyName -->
-                  <span class="method-name">sortbyName</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.DataTech.Tests.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -165,10 +173,94 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DataTech.Tests.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assertProductDetails">
+                  </a> <!-- assertProductDetails -->
+                  <span class="method-name">assertProductDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDetails">
+                  </a> <!-- verifyProductDetails -->
+                  <span class="method-name">verifyProductDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DataTech.Tests.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCheapestProduct">
+                  </a> <!-- addCheapestProduct -->
+                  <span class="method-name">addCheapestProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilters(Name (A to Z))">
+                  </a> <!-- verifyFilters(Name (A to Z)) -->
+                  <span class="method-name">verifyFilters</span>
+                  <span class="parameters">(Name (A to Z))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilters(Name (Z to A))">
+                  </a> <!-- verifyFilters(Name (Z to A)) -->
+                  <span class="method-name">verifyFilters</span>
+                  <span class="parameters">(Name (Z to A))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilters(Price (high to low))">
+                  </a> <!-- verifyFilters(Price (high to low)) -->
+                  <span class="method-name">verifyFilters</span>
+                  <span class="parameters">(Price (high to low))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFilters(Price (low to high))">
+                  </a> <!-- verifyFilters(Price (low to high)) -->
+                  <span class="method-name">verifyFilters</span>
+                  <span class="parameters">(Price (low to high))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.DataTech.Tests.ProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProductDetails">
+                  </a> <!-- getProductDetails -->
+                  <span class="method-name">getProductDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bhaga\eclipse-ALO\DataTech\src\test\resources\Task2.xml</span>
+            <span class="header-content">C:\Users\bhaga\eclipse-ALO\DataTech\src\test\resources\Task1.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -180,10 +272,12 @@
       &lt;class name=&quot;com.DataTech.Tests.LoginTest&quot;/&gt;
       &lt;class name=&quot;com.DataTech.Tests.HomeTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;sortbyName&quot;/&gt;
-          &lt;include name=&quot;getProductNameAndPrice&quot;/&gt;
+          &lt;exclude name=&quot;sortbyName&quot;/&gt;
+          &lt;exclude name=&quot;getProductNameAndPrice&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.DataTech.Tests.HomeTest --&gt;
+      &lt;class name=&quot;com.DataTech.Tests.ProductTest&quot;/&gt;
+      &lt;class name=&quot;com.DataTech.Tests.CartTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -197,7 +291,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -223,24 +317,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validLogin')
 data.setCell(0, 2, 'com.DataTech.Tests.LoginTest')
-data.setCell(0, 3, 692);
+data.setCell(0, 3, 681);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'sortbyName')
+data.setCell(1, 1, 'addCheapestProduct')
 data.setCell(1, 2, 'com.DataTech.Tests.HomeTest')
-data.setCell(1, 3, 253);
+data.setCell(1, 3, 388);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'getProductNameAndPrice')
+data.setCell(2, 1, 'verifyFilters')
 data.setCell(2, 2, 'com.DataTech.Tests.HomeTest')
-data.setCell(2, 3, 194);
+data.setCell(2, 3, 285);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyProductDetails')
+data.setCell(3, 2, 'com.DataTech.Tests.CartTest')
+data.setCell(3, 3, 264);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyFilters')
+data.setCell(4, 2, 'com.DataTech.Tests.HomeTest')
+data.setCell(4, 3, 227);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyFilters')
+data.setCell(5, 2, 'com.DataTech.Tests.HomeTest')
+data.setCell(5, 3, 205);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyFilters')
+data.setCell(6, 2, 'com.DataTech.Tests.HomeTest')
+data.setCell(6, 3, 199);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getProductDetails')
+data.setCell(7, 2, 'com.DataTech.Tests.ProductTest')
+data.setCell(7, 3, 62);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'assertProductDetails')
+data.setCell(8, 2, 'com.DataTech.Tests.CartTest')
+data.setCell(8, 3, 5);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -255,17 +373,31 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">5 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.DataTech.Tests.HomeTest</span>
+              <span class="ignored-class-name">com.DataTech.Tests.CartTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">setup</span>
                 <br/>
-                <span class="ignored-method-name">verifyFilters</span>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.DataTech.Tests.HomeTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">getProductNameAndPrice</span>
                 <br/>
-                <span class="ignored-method-name">addCheapestProduct</span>
+                <span class="ignored-method-name">sortbyName</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.DataTech.Tests.ProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -284,18 +416,48 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">validLogin</span>
-                <span class="method-start">4806 ms</span>
+                <span class="method-start">7604 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.DataTech.Tests.HomeTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">sortbyName</span>
-                <span class="method-start">5507 ms</span>
+                <span class="method-name">verifyFilters(Name (A to Z))</span>
+                <span class="method-start">8302 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">getProductNameAndPrice</span>
-                <span class="method-start">5762 ms</span>
+                <span class="method-name">verifyFilters(Name (Z to A))</span>
+                <span class="method-start">8509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFilters(Price (low to high))</span>
+                <span class="method-start">8796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFilters(Price (high to low))</span>
+                <span class="method-start">9025 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addCheapestProduct</span>
+                <span class="method-start">9226 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DataTech.Tests.ProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getProductDetails</span>
+                <span class="method-start">9617 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DataTech.Tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDetails</span>
+                <span class="method-start">9682 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">assertProductDetails</span>
+                <span class="method-start">9949 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
